@@ -26,7 +26,7 @@ function triangleAngleFinder (angle1, angle2){
 }
 
 function dateDifferenceFinder (date1, date2){
-  return Math.floor((Date.parse(date1) - Date.parse(date2) ) / (1000*3600*24))
+  return (Date.parse(date2) - Date.parse(date1) ) / (1000*3600*24)
 }
 
 function dayConverter (day){
@@ -44,7 +44,7 @@ console.log(rectangleArea(5,3));
 console.log("\n");
 
 console.log("Write a code to find perimeter of rectangle.");
-console.log("Example : length - 5, width = 3");
+console.log("Example : length = 5, width = 3");
 console.log("Result : ");
 console.log(rectanglePerimeter(5,3));
 console.log("\n");
@@ -70,7 +70,7 @@ console.log("\n");
 console.log("Write a code to get difference between dates in days.");
 console.log("Example: date1= 2022-01-20, date2=2022-01-22 ->2");
 console.log("Result : ");
-console.log(dateDifferenceFinder('2019-01-03','2019-01-01'));
+console.log(dateDifferenceFinder('2022-01-20','2022-01-22'));
 console.log("\n");
 
 console.log("Write a code to convert days to years, months and days (Notes: 1 year :365 days, 1 month days)");
