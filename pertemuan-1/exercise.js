@@ -79,6 +79,7 @@ console.log("Example : 366 days -> 1 year, O month, 1 day");
 console.log("Result : ");
 console.log(dayConverter(400));
 console.log(dayConverter(366));
+console.log(dayConverter(399));
 console.log("\n");
 
 
