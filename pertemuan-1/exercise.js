@@ -26,7 +26,7 @@ function triangleAngleFinder (angle1, angle2){
 }
 
 function dateDifferenceFinder (date1, date2){
-  return (Date.parse(date2) - Date.parse(date1) ) / (1000*3600*24)
+  return Math.abs(Date.parse(date2) - Date.parse(date1) ) / (1000*3600*24)
 }
 
 function dayConverter (day){
