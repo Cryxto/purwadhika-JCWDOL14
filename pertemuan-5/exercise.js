@@ -319,6 +319,7 @@ console.log('No. 5');
 const RPSGame = (userChoice='')=>{
   const Choice = ['Rock', 'Paper', 'Scissors']
 
+  // result user win/lose status
   const rule = (theChoice)=>{
    switch (theChoice) {
     case 'Rock':
